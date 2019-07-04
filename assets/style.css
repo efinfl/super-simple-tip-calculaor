@@ -1,0 +1,56 @@
+
+/* font-family: 'Roboto Condensed', sans-serif; */
+
+/* ===== reference only ===== */
+/* div, input, label {
+    border: .25px solid red;
+} */
+
+/* ===== end reference ======= */
+
+body {
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+   justify-content: center;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1rem 0 1rem
+}
+
+.col-separator {
+    border-left: 2px solid lightgray
+}
+
+label {
+    font-size: 	0.875rem;
+    font-weight: 700;
+    color: grey;
+}
+input {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.separator {
+    width: 100px;
+    height: 1px;
+    background-color: lightblue;
+    margin-bottom: 20px;
+}
+
+.results {
+    border-bottom: .5px solid lightgray;
+    min-height: 1.25rem;
+    max-width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+} 
